@@ -324,6 +324,10 @@ li.active .nav-ico {
     padding-top: 5.5em;
 }
 
+.info-p {
+    color: #000;
+}
+
 span {
     font-family: 'Poppins';
 }
