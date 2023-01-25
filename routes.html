@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="routes.css">
+</head>
+
+<body class="routes">
+
+    <header class="header">
+        <svg class="logo" id="logo-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 93.5 53.14">
+            <defs>
+
+            </defs>
+            <g id="Layer_1-2" data-name="Layer 1">
+                <path class="cls-1"
+                    d="m18.5,16.64c-4.12,0-7.91,1.4-10.94,3.73,2.55-1.72,5.63-2.73,8.94-2.73,8.84,0,16,7.16,16,16s-7.16,16-16,16S.79,42.74.53,34.14c0,.17-.03.33-.03.5,0,9.94,8.06,18,18,18s18-8.06,18-18-8.06-18-18-18Z" />
+                <path class="cls-1"
+                    d="m76.75,20.14c-3.72,0-7.14,1.22-9.88,3.26,2.3-1.51,5.08-2.39,8.07-2.39,7.98,0,14.44,6.27,14.44,14s-6.47,14-14.44,14-14.18-6.03-14.42-13.56c0,.15-.02.29-.02.44,0,8.7,7.28,15.75,16.25,15.75s16.25-7.05,16.25-15.75-7.28-15.75-16.25-15.75Z" />
+                <path class="cls-2"
+                    d="m16.15,32.42c9.56-4.28,20.17-5.76,30.65-5.71s20.87,1.59,31.23,3.12c-9.49-.02-18.01,2.35-26.52,6.81-2.44,1.28-6,2-6.83,5.66" />
+                <path class="cls-2" d="m78.5,30.64c-6.42-7.32-14.91-15.83-21.86-23.41" />
+                <path class="cls-2" d="m41.68,4.34c4.65,1.14,9.36,2.28,14.15,2.18s9.73-1.58,13.06-5.02" />
+                <circle class="cls-2" cx="49" cy="43.14" r="4.5" />
+            </g>
+        </svg>
+    </header>
+
+
+    <h4>
+
+        In what neigbourhood would you like to bike?
+    </h4>
+
+    <div class="bar">
+        <div class="search">
+            <input type="text" placeholder="search">
+        </div>
+
+        <?xml version="1.0" encoding="UTF-8"?>
+        <svg class="search-ico" id="search" data-name="Laag 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 47.68 47.79">
+          
+          <g id="Layer_1-2" data-name="Layer 1">
+            <g>
+              <path class="cls-1" d="m28.48,5.3C22.08-1.1,11.7-1.1,5.3,5.3c-6.4,6.4-6.4,16.78,0,23.18,5.39,5.39,13.6,6.22,19.88,2.53l15.63,15.63c.86.86,2.27.86,3.13,0l2.59-2.59c.86-.86.86-2.27,0-3.13l-15.6-15.6c3.79-6.3,2.99-14.59-2.45-20.02Z"/>
+              <circle class="cls-1" cx="17.23" cy="17.19" r="9.05"/>
+            </g>
+          </g>
+        </svg>
+
+        <!-- <svg class="search-ico" id="search" data-name="Laag 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 52 52">
+            <g data-name="Laag 1">
+                <g>
+                    <circle class="cls-1" cx="20.55" cy="20.55" r="19.55" />
+                    <path class="cls-1"
+                        d="m49.17,40.3l-11.09-11.09c-1.9,3.84-5.03,6.97-8.87,8.87l11.09,11.09c2.44,2.44,6.43,2.44,8.87,0s2.44-6.43,0-8.87Z" />
+                </g>
+            </g>
+        </svg> -->
+        <div class="dropdown">
+            <button class="drop-button">Filter</button>
+            <div class="dropdown-content">
+                <p>Close to me</p>
+                <p>Many stops</p>
+                <p>Few stops</p>
+            </div>
+            <?xml version="1.0" encoding="UTF-8"?>
+            <svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 251.32 109.53">
+                <defs>
+
+                </defs>
+                <g id="Layer_1-2" data-name="Layer 1">
+                    <g>
+                        <rect x="0" y="13.8" width="251.32" height="11.91" rx="5.95" ry="5.95" />
+                        <rect x="0" y="48.81" width="251.32" height="11.91" rx="5.95" ry="5.95" />
+                        <rect x="0" y="83.82" width="251.32" height="11.91" rx="5.95" ry="5.95" />
+                        <circle class="cls-1" cx="43.71" cy="19.76" r="19.26" />
+                        <circle class="cls-1" cx="125.66" cy="51.79" r="19.26" />
+                        <circle class="cls-1" cx="210.97" cy="89.77" r="19.26" />
+                    </g>
+                </g>
+            </svg>
+        </div>
+    </div>
+
+
+    <ul class="location-list">
+
+        <li class="location-list-li">
+            <a class="location-list-a" href="routenoord.html">
+                <div class="maps-image">
+                    <img class="maps-img-size" src="./img/Screenshot-noord.png">
+                </div>
+                <div>
+                    <h3>
+                        Noord
+                    </h3>
+                </div>
+
+                <div>
+                    <ul>
+                        <li class="List-stops"> EYE Film Museum, World-class cinema experience in Amsterdam.</li>
+
+                        <li class="List-stops"> Tolhuistuin, Cultural hub of Amsterdam Noord.</li>
+
+                        <li class="List-stops"> Sexy World, Bar/cafe with good food and nice people.</li>
+
+                        <li class="List-stops"> NDSM Werf, Industrial-chic creative hub in Amsterdam.</li>
+
+                        <li class="List-stops"> Nieuwedammerdijk, Colorful Dutch street with traditional houses.
+                        </li>
+                        <li class="List-stops"> Skate Cafe Karin & Yvonne: Skateboarders paradise in Amsterdam
+                            Noord.</li>
+
+
+        </li>
+    </ul>
+    </div>
+
+
+
+    </a>
+    </li>
+    </ul>
+
+    <li class="location-list-li">
+        <a class="location-list-a" href="route-oost.html">
+            <div class="maps-image">
+                <img class="maps-img-size" src="./img/route-oost2.png">
+            </div>
+            <div>
+                <h3>
+                    Oost
+                </h3>
+            </div>
+
+            <div>
+                <ul>
+                    <li class="List-stops"> Artis, Zoological garden in Amsterdam's heart.</li>
+
+                    <li class="List-stops"> Oosterpark, Amsterdam's peaceful urban oasis park.</li>
+
+                    <li class="List-stops"> Beste Doner, Dappermarkt, Best sandwitches in town</li>
+
+                    <li class="List-stops"> Indische buurt, Indische Buurt: Amsterdam's cultural melting pot.</li>
+
+
+                </ul>
+            </div>
+    <li class="location-list-li">
+        <a class="location-list-a" href="route-zuid.html">
+            <div class="maps-image">
+                <img class="maps-img-size" src="./img/Screenshot-zuid.png">
+            </div>
+            <div>
+                <h3>
+                    Zuid
+                </h3>
+            </div>
+
+            <div>
+                <ul>
+                    <li class="List-stops"> Vondelpark: Large, picturesque urban park.</li>
+
+                    <li class="List-stops"> Rijksmuseum, Dutch national art and history museum.</li>
+
+                    <li class="List-stops"> Heineken Experience, interactive brewery tour.</li>
+
+                    <li class="List-stops"> Albertcuyp Markt, busy outdoor market.</li>
+
+                    <li class="List-stops"> Museumplein, cultural square with museums.</li>
+
+                    <li class="List-stops">Vondelpark Openlucht Theater: Open-air theater in Vondelpark.</li>
+
+                </ul>
+        </a>
+    </li>
+
+    </div>
+    <li class="location-list-li">
+        <a class="location-list-a" href="route-west.html">
+            <div class="maps-image">
+                <img class="maps-img-size" src="./img/img-west2.png">
+            </div>
+            <div>
+                <h3>
+                    West
+                </h3>
+            </div>
+
+            <div>
+                <ul>
+                    <li class="List-stops"> Foodhallen, food market and event space</li>
+
+                    <li class="List-stops"> Westergas, urban cultural park and events.</li>
+
+                    <li class="List-stops"> De baarsjes, Trendy neighborhood with bars and shops</li>
+
+                    <li class="List-stops"> Rembrandt park, large park with lake, playgrounds</li>
+
+                    <li class="List-stops">Restaurant Faam, modern European cuisine in west Amsterdam</li>
+
+                </ul>
+    </li>
+    </ul>
+    </div>
+
+
+
+    </a>
+    </li>
+    </ul>
+
+
+    </a>
+    </li>
+    </ul>
+
+
+    </a>
+    </li>
+    </ul>
+    <div class="space">
+    </div>
+
+
+    <nav>
+        <ul class="navigation">
+            <li><a href="index.html"><img src="./Icons/home button.svg" /><span>Home</span></a></li>
+            <li class="active"><a href="routes.html"><img src="./Icons/Maps logo.svg" /><span>Routes</span></a></li>
+            <li><a href="about.html"><img src="./Icons/Asset 10.svg" /><span>About</span></a></li>
+        </ul>
+    </nav>
+
+
+</body>
+
+</html>
