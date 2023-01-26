@@ -98,7 +98,7 @@ button a {
     background-color: rgb(248, 245, 241);
     width: 333px;
     height: 65px ;
-    margin: 8px 12.5px;
+    margin: 16px 16px;
     display: flex;
     border-radius: 25px;
     box-shadow: 10px 10px 17px 1px rgba(0, 0, 0, 0.47);
@@ -175,6 +175,7 @@ button a {
 .maps-img-size {
     width: 250px;
     box-shadow: 10px 10px 17px 1px rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
 
 }
 
@@ -319,7 +320,7 @@ li.active .nav-ico {
 
 .frame {
     border: none;
-    width: 365px;
+    width: 375px;
     height: 450px;
     padding-top: 5.5em;
 }
@@ -337,7 +338,7 @@ span {
     align-items: center;
     position: fixed;
     background: linear-gradient(to left, rgb(107, 80, 75), rgb(83, 66, 42));
-    padding-right: 4.15em;
+    padding-right: 4.75em;
 }
 
 .container-oost {
@@ -345,7 +346,7 @@ span {
     align-items: center;
     position: fixed;
     background: linear-gradient(to left, rgb(107, 80, 75), rgb(83, 66, 42));
-    padding-right: 5.62em;
+    padding-right: 6.25em;
 }
 
 .container-zuid {
@@ -353,7 +354,7 @@ span {
     align-items: center;
     position: fixed;
     background: linear-gradient(to left, rgb(107, 80, 75), rgb(83, 66, 42));
-    padding-right: 5.9em;
+    padding-right: 6.55em;
 }
 
 .container-west {
@@ -361,5 +362,5 @@ span {
     align-items: center;
     position: fixed;
     background: linear-gradient(to left, rgb(107, 80, 75), rgb(83, 66, 42));
-    padding-right: 5.15em;
+    padding-right: 5.75em;
 }
